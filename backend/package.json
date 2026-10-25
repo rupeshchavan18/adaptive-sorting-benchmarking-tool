@@ -1,0 +1,15 @@
+{
+  "name": "sorting-benchmarker-backend",
+  "version": "1.0.0",
+  "description": "Local Node.js backend bridging React UI to native C++ DSA sorting engine",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
